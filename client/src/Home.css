@@ -1,0 +1,133 @@
+.home{
+    background-image: url("./assets/Group375.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.girl{
+    width: 50%;
+    align-self: center;;
+}
+
+.girl img{
+    width: 32vw;
+}
+
+.homeBalloons{
+    display: none;
+}
+.main{
+    width: 50%;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.main img{
+    width: 20vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+}
+
+.main svg{
+    width: 2.5vw;
+    color: black;
+}
+.main svg:hover{
+    color: #0B9FD7;
+}
+
+.homeText{
+    max-width: 25vw;
+    font-weight: 700;
+    margin: auto;
+}
+.homeText2{
+    font-weight: 800;
+    margin-top: 8vw;
+}
+
+
+@media (min-width:451px) and (max-width: 840px){
+    .girl{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-self: flex-start;
+        margin-top: 5vw;
+    }
+    .girl img{
+        width: 35vw;
+        margin-left: 5vw;
+    }
+    
+    .homeBalloons{
+        display:flex;
+        margin-top: 70vw;
+    }
+    .homeBalloons img{
+        width: 25vw;
+    }
+
+    .main{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main img{
+        width: 40vw;
+        padding-top: 7vw;
+        padding-bottom: 5vw;
+    }
+    .main svg{
+        width: 6vw;
+        color: black;
+    }
+    .homeText{
+        max-width: 40vw;
+        font-weight: 700;
+        margin: auto;
+    }
+}
+
+@media (min-width:320px) and (max-width: 450px){
+    .girl{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-self: flex-start;
+        margin-top: 5vw;
+    }
+    .girl img{
+        width: 35vw;
+        margin-left: 5vw;
+    }
+    .homeBalloons{
+        display:flex;
+        margin-top: 90vw;
+    }
+    .homeBalloons img{
+        width: 22vw;
+    }
+    .main{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main img{
+        width: 40vw;
+        padding-top: 7vw;
+        padding-bottom: 5vw;
+    }
+    .main svg{
+        width: 6vw;
+        color: black;
+    }
+    .homeText{
+        max-width: 40vw;
+        font-weight: 700;
+        margin: auto;
+    }
+}

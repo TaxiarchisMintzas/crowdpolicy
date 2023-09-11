@@ -1,0 +1,49 @@
+.containerFooter{
+    background-color: #F5F3F0;
+}
+
+.footer img{
+    width: 15vw;
+    margin: 2vw 0;
+}
+
+.footer{
+    margin: 0 35vw;
+    border-bottom: solid 1px #091F2C;
+}
+
+.footer p{
+    font-size: 1vw;
+}
+
+.contact{
+    margin-bottom: 1vw;
+}
+.contact p{
+    margin: 0;
+}
+.contact span{
+    margin: 0 0.3vw;
+}
+.credits{
+    margin: 0.5vw 0;
+    font-size: 1vw;
+    font-weight: 500;
+
+}
+
+@media (min-width:320px) and (max-width: 450px){
+
+    .contact span{
+        margin: 0 0.2vw;
+    }   
+    .footer p{
+        font-size: 2.5vw;
+    }
+    .credits{
+        font-size: 2.5vw;
+    }
+    .contact span{
+        width: 0.5vw;
+    }
+}

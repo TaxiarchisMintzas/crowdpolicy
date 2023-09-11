@@ -1,0 +1,126 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+}
+
+.container{
+  display: flex;
+  margin-top: 3vw ;
+  margin-bottom: 3vw ;
+}
+
+.balloons{
+  width: 50vw;
+  align-self: flex-end;
+}
+.balloons img{
+  width: 10vw;
+  padding-bottom: 9vw;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.column p , li{
+  color: #888;
+  font-size: small;
+  text-align: left;
+}
+
+ul{
+  padding-left: 1rem;
+  width: 30vw;
+
+}
+
+.column input{
+  width: 30vw;
+}
+
+.formInfo{
+  text-align: left;
+  width: 50%;
+  color: black !important;
+}
+
+.requisite{
+  color: #0B9FD7 !important;
+}
+
+.containerCheckbox{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1vw 0;
+}
+
+.containerCheckbox input{
+  width: 0.8vw;
+}
+.containerCheckbox p{
+  margin-bottom: 0.2vw !important;
+  margin-left: 0.5vw;
+}
+
+label{
+  font-weight: 700;
+}
+
+button{
+  color: white;
+  background-color: #01A2DF;
+  margin-top: 4vw;
+}
+
+@media (min-width:451px) and (max-width: 840px){
+  .balloons{
+    visibility: hidden;
+  }
+  .containerCheckbox input{
+    width: 2vw !important;
+  }
+}
+
+
+@media (min-width:320px) and (max-width: 450px){
+  
+  .balloons{
+    display: none;
+  }
+
+  .container{
+    margin-left: 4.5vw;
+  }
+  .column input{
+    width: 70vw !important;
+    align-items: start!important;
+  }
+  .containerCheckbox{
+    flex-wrap: nowrap;
+  }
+  .containerCheckbox input{
+    width: 3.5vw !important;
+  }
+
+  ul{
+    width: 70vw;
+  }
+  .formInfo{
+    width: 80%;
+  }
+  button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 60vw;
+  }
+  .homeText{
+    max-width: 37vw !important;
+    font-size: 3vw;
+  }
+}

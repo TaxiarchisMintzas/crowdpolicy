@@ -1,0 +1,163 @@
+.home{
+    background-image: url("./assets/Group375.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.homeBalloonsSuccess{
+    display: flex;
+    width: 0.5vw;
+}
+.homeBalloonsSuccess img{
+    width: 11vw !important;
+    margin-left: 5vw;
+}
+
+.girlCase{
+    width: 50%;
+    align-self: center;;
+}
+
+#girl{
+    width: 22vw;
+}
+
+.mainCase{
+    width: 45%;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+#deh{
+    width: 20vw;
+    padding-top: 6vw;
+    padding-bottom: 4vw;
+}
+
+#fireworks{
+    width: 5vw;
+}
+
+.divSuccess{
+    display: flex;
+    margin: 2vw 0;
+    justify-content: center;
+}
+.textSuccess{
+    max-width: 25vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin: 0 2vw;
+}
+
+.homeText{
+    max-width: 25vw;
+    font-weight: 700;
+    margin: auto;
+}
+.homeText2{
+    font-weight: 800;
+    margin-top: 8vw;
+    width: 30vw;
+    margin: 3vw auto;
+}
+
+button{
+    margin: 1vw 0;
+}
+
+@media (min-width:451px) and (max-width: 840px){
+ 
+}
+
+  @media (min-width:320px) and (max-width: 450px){
+  
+    .girlCase{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-self: flex-start;
+        margin-top: 5vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    #girl{
+        width: 30vw;
+        margin-left: 5vw;
+    }
+    .homeBalloonsSuccess{
+        width: 30vw;
+    }
+
+    .mainCase{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mainText{
+        width: 40vw;
+        font-size: 3vw;
+    }
+
+    #deh{
+        width: 40vw;
+        padding-top: 7vw;
+        padding-bottom: 5vw;
+    }
+    .container{
+      margin-left: 4.5vw;
+    }
+    .column input{
+      width: 70vw !important;
+      align-items: start!important;
+    }
+    .containerCheckbox{
+      flex-wrap: nowrap;
+    }
+    .containerCheckbox input{
+      width: 3.5vw !important;
+    }
+    
+    .textSuccess{
+        max-width: 40vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .divSuccess{
+        display: block;
+        margin: 2vw 0;
+        justify-content: center;
+        width: 60vw;
+    }
+
+    #fireworks{
+        width: 7vw;
+    }
+    ul{
+      width: 70vw;
+    }
+    .formInfo{
+      width: 80%;
+    }
+    button{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      width: 45vw;
+    }
+
+    .homeText2{
+        width: 40vw;
+        font-size: 3.5vw;
+    }
+    .homeText2 span{
+        font-size: 3vw;
+    }
+  }
