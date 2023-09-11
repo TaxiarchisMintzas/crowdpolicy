@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './App.css'
 import Home from"./components/Home"
 import balloons from "./assets/balloons.png"
+import './App.css'
 import { createUser } from './api/createUser'
 
 
@@ -12,18 +12,18 @@ export default function App() {
     lastName: "",
     number: "",
     email: "",
+    date: new Date(),
     }
   )
+
 
   async function handleCreateUser(event: React.FormEvent) {
     event.preventDefault();
 
-    
     try{
-      console.log(user);
-      // const signUpDate= new Date();
-      const newUser = await createUser(user);
-      setUser(newUser);
+      user.date = new Date();
+      const insertUser = await createUser(user);
+      setUser(insertUser);
     }
     catch(err){
       alert(err);
@@ -129,10 +129,8 @@ export default function App() {
           </form>
         </div>
         <div>
-          
         </div>
-
-            </div>
       </div>
+    </div>
 )}
 

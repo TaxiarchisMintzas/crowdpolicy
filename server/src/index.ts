@@ -25,6 +25,10 @@ app.use(express.json());
 
 app.get("/", (req, res)=>{
 })
+app.get("/success", (req, res)=>{
+})
+app.get("/failed", (req, res)=>{
+})
 
 app.post("/", createUserController);
 

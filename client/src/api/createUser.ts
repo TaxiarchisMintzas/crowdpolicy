@@ -6,7 +6,7 @@ export async function createUser(user: TUser) {
     const response = await fetch(`${API_URL}`,{
         method: "POST",
         body: JSON.stringify({
-            user
+            user,
         }),
         headers: {
             "Content-Type": "application/json" 

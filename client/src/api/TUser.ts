@@ -3,4 +3,5 @@ export type TUser = {
     lastName: string;
     number: string;
     email: string;
+    date: Date;
 }
